@@ -1,0 +1,111 @@
+{
+  data: {
+    user_id: "92a1b879-0c2a-4cfd-b3f8-1771de041e07",
+    wallet_id: "dda9b9bc-bdb9-4301-a146-57d4521b7290",
+    wallet_address: "1GsVpRdEH7TdRSis7MRVfpdLh3nY5jAhEA",
+    access_token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MjA1NjI1NzIsImlhdCI6MTcxNzk3MDU3MiwiaXNzIjoiaHR0cHM6Ly9uZXVjcm9uLmlvIiwianRpIjoiOWFmNmYyNzYtOTU2Yy00ZWQ5LWE5NTQtZmQzZmFhNmUzY2JlIiwibmJmIjoxNzE3OTcwNTcyLCJzdWIiOiI5MmExYjg3OS0wYzJhLTRjZmQtYjNmOC0xNzcxZGUwNDFlMDciLCJ1c2VyX2lkIjoiOTJhMWI4NzktMGMyYS00Y2ZkLWIzZjgtMTc3MWRlMDQxZTA3In0.YgY-zD-NTHf-9dVOoUjbSVHQwi3wrqmGNRxlG2i726k",
+    pub_key: "03716b8df844af6ceb17b057e7d00a2a4bb44fe3ec77f23f74fb4279dcfd303c2a",
+    expires_at: "2024-07-09T22:02:52Z",
+    paymail_id: "work.pushkarkhare@dev.neucron.io",
+  },
+  status_code: 200,
+}
+
+
+// const signUpResponse = await authModule.signUp({ email: "sales@timechainlabs.io", password: "string" });
+// console.log(signUpResponse);
+
+const loginResponse = await authModule.login({ email: "sales@timechainlabs.io", password: "string" });
+console.log(loginResponse);
+
+
+
+
+
+const options = {
+    outputs: [
+      {
+        address: 'rohan@dev.neucron.io',
+        note: 'gurudakshina',
+        amount: 10
+      }
+    ]
+  };
+
+// transaction done
+{
+  data: {
+    txid: "a8cbf723a53113023466313b7cf826ebf39c009be7180df0d592a33861a1258f",
+  },
+  status_code: 200,
+}
+
+
+initiating wallet
+{
+  data: {
+    paymailID: "2210@dev.neucron.io",
+    walletID: "106b65b3-7c53-4b09-ad06-441e3274d213",
+  },
+  status_code: 200,
+}
+{
+  data: {
+    balance: {
+      confirmed: 0,
+      unconfirmed: 2708,
+      summary: 2708,
+      count: 1,
+    },
+  },
+  status_code: 200,
+}
+{
+  data: {
+    addresses: [ "1PpntiCpCGvDCN3Ueh2XW4JSKdqkTHjog", "1ChP8LoTW48E8qSLykzRr716xdDnFkGc9A",
+      "12bSNxrrLpF1QW3f8fZ8diwetFTap2pQ6C", "134Pp21LKjpBBGw8jagQLFKiJs9CbiZrdN", "1QCaTrtSkJT9tKQZLQFaVxdYXWDBMuJ5C6",
+      "1KWfynZixCJDL3F554ZyHXDVqstiCeEaT8", "1J2oSgy4VVsEXaS8dc8i8g8x3T4YA9Gh4Q", "1LVnbPnWpw58cFf3ZLH3ZtWXTLUget6QTk",
+      "1NdBDmdVR7jsATZhQ9ztyiow3vg1HVvysw", "1MEM2ART7Gw6crmm2mVt4L3vVKmy1g3mqq"
+    ],
+  },
+  status_code: 200,
+}
+
+
+
+
+//
+Private Key WIF format is  L3kpX2bDXYwayrCCR2ppY2yD5dNQc9uCjWPNjSB5JydxhjNUnJgn
+Your bitcoin address is  1ALsTPGoG7WET5DzQWWMYcsm9e5nbhfvYu
+
+
+
+//mera email se 
+{
+  data: {
+    paymailID: "2211@dev.neucron.io",
+    walletID: "a895c5dc-01ef-4bdc-b734-85c494346afc",
+  },
+  status_code: 200,
+}
+{
+  data: {
+    balance: {
+      confirmed: 10,
+      unconfirmed: 0,
+      summary: 10,
+      count: 1,
+    },
+  },
+  status_code: 200,
+}
+{
+  data: {
+    addresses: [ "1GsVpRdEH7TdRSis7MRVfpdLh3nY5jAhEA", "1B3yuyrU1kjWqmJyFgTmnTAv7fArgg1mYk",
+      "1AbKVgq93BsDbPoTp6VmyduarjWM94swtV", "1PPAcHXGizHdwRw1S8grqdhVUBJohzabwU", "1QABSqwZaq7VxJofutLXXxYsGVnbw9bXXo",
+      "1AgHM7RBJxQ86yRMKGyDVMpUVdcJ3oiqK5", "1JHFwmYdLd4rfn1h7wsW4YtgSQRCddT2Nb", "1DnV5P2cGqPt9UU2ms5qREXVVQsX6w5UhX",
+      "1GnqgW6u2AZgSYBE7RmntiqSAjEJAZbppo", "1KwcSSFecHuKVkm8R4dYTNQhRmxVFxqM2C"
+    ],
+  },
+  status_code: 200,
+}
